@@ -1,0 +1,33 @@
+body{
+	background-color: papayawhip;
+	color: darkblue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+h1{
+	font-size:38px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+
+p{
+	font-size:22px;
+	text-align: justify;
+	color: darkolivegreen ;
+	margin-left: auto;
+}
+
+img {
+	object-fit: cover;  
+  float: left;
+  margin-right: 20px;
+}
+
+.P {
+  margin-left: 20px;
+}

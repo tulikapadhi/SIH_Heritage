@@ -1,0 +1,29 @@
+body{
+	background-color: papayawhip;
+	color: darkblue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+h1{
+	font-size:38px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+p{
+	font-size:24px;
+	text-align: justify;
+	color: darkolivegreen ;
+	margin-left: auto;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+}
+
+.Chhau {
+  margin-left: 20px;
+}
