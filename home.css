@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-height:70.88px){
+.head h1 {
+    background-color:#ffbf00 !important;
+}
+}
+
+.head h1 {
+    font-family: Tahoma, sans-serif;  
+    color: rgb(41, 2, 100);
+    font-size: xx-large;
+    text-align: center;
+    background-color:white;
+    
+}
+
+
+#un {
+    font-size: x-large;
+    color: rgb(190, 4, 4);
+    text-align: center;
+}
+
+
+.head {
+    position: fixed;
+    width:1330px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar a {
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ffbf00;
+    color: black;
+}
+
+.about {
+    margin-top: 35px;
+    margin-bottom: 0;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.column {
+    margin: 30px;
+    float: left;
+    width: 185px;
+    padding: 40px;
+    border: 2.5px solid black;
+    border-radius: 5px;
+  }
+
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+a {
+    font-size: 22px;
+    text-align: center;
+    text-overflow: unset;
+}
+
+.i {
+    border-radius: 30%;
+}
+
+.id {
+    background-image: url(design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+
+}
