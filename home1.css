@@ -1,96 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>परंपरागत भारत</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    <link rel="stylesheet" href="home1.css">
+@media only screen and (max-height:70.88px){
+.head h1 {
+    background-color:#ffbf00 !important;
+}
+}
 
-</head>
-<body>
-    <header>
-        <div class="head">
-            <h1>परंपरागत भारत 
-            <p id="un">The Mirror of Indian Culture</p></h1></div>
-            <br><br><br>
-       <img src="C:\VJTI\CPP\HOME PAGE\new7.jpg">
+.head h1 {
+    font-family: Tahoma, sans-serif;  
+    color: rgb(41, 2, 100);
+    font-size: xx-large;
+    text-align: center;
+    background-color:white;
+    
+}
 
-    </header>
-    <div class="navbar"> 
-        <a href="C:\VJTI\CPP\HOME PAGE\homepage.html"> Home</a>
-        <a href="https://www.indiatoday.in/heritage"> Latest News</a>
-        <a href="https://instagram.com/paramparagat_bharat1?igshid=MzRlODBiNWFlZA=="> Follow Us</a>
-    </div>
 
-    <main>
-        <div class="about"> 
-            <b style="display: grid; font-size: x-large ;">ABOUT US</b>
-            <br>
-            <p>India, a land of astounding diversity and cultural richness, invites you to embark on an enchanting
-             journey through its timeless heritage and vibrant traditions. Our website, "परंपरागत भारत-The Mirror 
-             of Indian Culture" is your gateway to exploring the captivating tapestry of this incredible nation.
-             we are committed to preserving and safeguarding the precious cultural heritage of India. We believe 
-             that by understanding and cherishing our past, we pave the way for a more culturally we aspire to 
-             share this heritage with the world, fostering a global appreciation for India's traditions.
-             Through engaging content, interactive experiences, and a sense of community, we invite you to join us in this
-            journey of exploration and celebration.</p>
-        </div>
-        <br>
-        <br>
-    <main class="id">
-        <div class="container">
-            <div class="column">
-                <a>Heritage Map</a>
-                <br><br>
-                    <img src="C:\VJTI\CPP\HOME PAGE\india_2160215.png">
+#un {
+    font-size: x-large;
+    color: rgb(190, 4, 4);
+    text-align: center;
+}
 
-            </div>
-            <div class="column">
-                <a>Lost Art Forms</a>
-                <br><br>
-                <img src="C:\VJTI\CPP\HOME PAGE\workshop.jpg">
-            </div>
-            <div class="column">
-                <a>Traditions of India</a>
-                <br><br>
-                <img  src="C:\VJTI\CPP\HOME PAGE\traditionhrt56.jpg">
-            </div>
 
-            <div class="column">
-                <a> Culture of India</a>
-                <br><br>
-                <img src="C:\VJTI\CPP\HOME PAGE\HOME PAGE\namaste .png">
-            </div>
+.head {
+    position: fixed;
+    width:1330px;
+}
 
-            <div class="column">
-                <a>Food of India</a>
-                <br><br>
-                <img src= "C:\VJTI\CPP\HOME PAGE\food060915.png">
-            </div>
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
 
-            <div class="column">
-                <a>Festivals</a>
-                <br><br>
-                <img  src= "C:\VJTI\CPP\HOME PAGE\fest.png">
-            </div>
+.navbar a {
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-            <div class="column">
-                <a>Religions</a>
-                <br><br>
-                <img  src= "C:\VJTI\CPP\HOME PAGE\8256.jpg">
-            </div>
+.navbar a:hover {
+    background-color: #ffbf00;
+    color: black;
+}
 
-            <div class="column">
-                <a> Fun Fact Page</a>
-                <br><br>
-                <img  src= "C:\VJTI\CPP\HOME PAGE\funfact5473.png">
-            </div>
-        </div>
-    </main>
+.about {
+    margin-top: 35px;
+    margin-bottom: 0;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-style: hidden;
+    border-radius: 5px;
+}
 
-    </main>
+p {
+    font-size: 22px;
+}
 
-</body>
-</html>
+.column {
+    margin: 30px;
+    float: left;
+    width: 185px;
+    padding: 40px;
+    border: 2.5px solid black;
+    border-radius: 5px;
+  }
+
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+a {
+    font-size: 22px;
+    text-align: center;
+    text-overflow: unset;
+}
+
+.i {
+    border-radius: 30%;
+}
+
+.id {
+    background-image: url(design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+
+}
