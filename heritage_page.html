@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERITAGE PAGE</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    .navbar{
+        background-color: bisque;
+        border-radius: 20px;
+    }
+    .navbar ul{
+        overflow: auto;
+    }
+    .navbar li{
+        float:left;
+        list-style: none;
+        margin: 11px 15px;
+        padding-top: 5px;
+       
+    }
+    .navbar li a{
+        padding:3px 3px ;
+        text-decoration: none;
+        color:black  ;
+    }
+    .navbar li a:hover{
+        background-color: black;
+        color:white  ;
+    }
+    .search{
+        float: right;
+        color: black;
+        padding: 0px 20px;
+        margin: 11px 3px;
+
+    }
+    .navbar input{
+        border: 3px solid black;
+        border-radius: 10px;
+        padding: 3px 3px;
+
+    }
+
+    .heritage li{
+        float: left;
+        list-style: none;
+        margin: 140px 120px;
+        background-color: rgb(255, 179, 0);
+
+    }
+    .heritage li img{
+        width: 300px;
+        height: 300px;
+        margin: 15px;
+    }
+    .heritage li a{
+        padding:3px 3px ;
+        text-decoration: none;
+        color:black  ;
+        text-align: center;
+    }
+    .heritage li a:hover{
+        background-color: black;
+        color:white  ;
+    }
+    
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href = "#">HOME</a></li>
+                <li><a href = "heritage_page.html">HERITAGE SITES</a></li>
+                <li><a href = "#">LOST ARTS</a></li>
+                <li><a href = "#">CONTACT US</a></li>
+                <div class="search">
+                    SEARCH BAR
+                    <input type="text" name="search" id="search" placeholder="Search this website" onkeyup="SearchFun()">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="heritage">
+        
+            <ul>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Great_Himalayan_National_Park_Mountain_View.jpg" alt="image couldn't be loaded">
+                <br><a href="site1.html">Great Himalayan National Park</a></li>
+            <li><img src="http://2.bp.blogspot.com/-2HmzIIlbUJE/UBGEy1UvmkI/AAAAAAAAblI/-Ia2ORmQ0BY/s1600/Ajanta_Caves.jpg" alt="image couldn't be loaded">
+                <br><a href="site2.html">Ajanta Caves</a></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Manas_National_Park.jpg/1280px-Manas_National_Park.jpg" alt="image couldn't be loaded">
+                <br><a href="site3.html">Manas National Park</a></li>
+           
+            </ul>    
+    </div>
+
+</body>
+
+
+</html>
